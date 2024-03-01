@@ -147,7 +147,7 @@ a:link,
 a:visited {color:#33658A;}
 
 a:focus,
-a:hover {underline: none;}
+a:hover {text-decoration: none;}
 
 
 /* List Styling */
@@ -178,7 +178,7 @@ nav{
 }
 
 nav a{
-	underline: none;
+	text-decoration: none;
 	display: inline-block;
 	width: 100%;
 	line-height: 3;
