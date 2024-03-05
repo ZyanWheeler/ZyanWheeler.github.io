@@ -75,7 +75,7 @@ main {
 section {
     float: left;
     min-width: 22.5rem;
-    width:50%;
+    
 }
 
 figure {
@@ -99,7 +99,8 @@ figcaption {
 
 nav {
     float: left;
-    width:11.25rem;
+	border-top: .125rem solid #33658A;
+	border-bottom: .125rem solid #33658A;
 }
 
 footer {
@@ -107,12 +108,6 @@ footer {
     margin-top:1.5rem;
 }
 
-section, aside, nav, footer {
-  padding: .5rem;
-}
 
-/* header and footer */
 
-header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
+  
