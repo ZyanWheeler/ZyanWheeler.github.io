@@ -50,64 +50,17 @@
 
 /* General setup */
 
-* {
-    box-sizing: border-box;
-}
+
 
 html {
     font-size:16px;
 }
 
-body {
-    margin: 1.5rem auto;
-    width:90%;
-    min-width:56.25rem;
-}
 
-/* Layout */
 
-main {
-    overflow:auto;
-    min-width:45rem;
-    
-}
-
-section {
-    float: left;
-    min-width: 22.5rem;
-    
-}
-
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-    float:left;
-}
-
-figure img {
-    width:100%;
-    max-width:25rem;
-}
-
-figcaption {
-    margin:.375rem 0;
-}
-
-.long-list {
-    margin-top:0;
-}
 
 nav {
-    float: left;
 	border-top: .125rem solid #33658A;
 	border-bottom: .125rem solid #33658A;
 }
 
-footer {
-    clear: both;
-    margin-top:1.5rem;
-}
-
-
-
-  
