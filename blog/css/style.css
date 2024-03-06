@@ -98,10 +98,13 @@ aside {
 section {
 }
 
-figure {
-	border-bottom: 0.125rem solid #000000;
+figure img {
+	width: 50%;
 }
 
+aside img {
+	width: 70%;
+}
 .article-image {
 	float: left;
 }
