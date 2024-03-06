@@ -88,6 +88,7 @@ article {
 	width: 65%;
 	border-right: 0.125rem solid #000000;
 	padding-right: 20px;
+	margin-left: 45px;
 }
 
 aside {
@@ -104,6 +105,10 @@ figure img {
 
 aside img {
 	width: 70%;
+}
+
+figcaption {
+	color-background: #fffdd8;
 }
 .article-image {
 	float: left;
