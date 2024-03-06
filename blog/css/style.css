@@ -61,8 +61,8 @@ html {
 
 
 nav {
-	border-top: .125rem solid #33658A;
-	border-bottom: .125rem solid #33658A;
+	border-top: .125rem solid #000000;
+	border-bottom: .125rem solid #000000;
 	font-size: 28px;
 	word-spacing: 40px;
 	text-decoration: none;
@@ -76,6 +76,7 @@ h2 {
 
 main {
 	margin-left: 45px;
+	overflow:auto;
 }
 
 article {
@@ -86,6 +87,11 @@ article {
 aside {
 	float: right;
 	width: 30%;
+	border-left: .125rem solid #000000;
+}
+
+section {
+	float: left;
 }
 
 .grid-container { 
