@@ -71,8 +71,13 @@ nav {
 
 h2 {
 	font-size: 14px;
-	float: left;
+	
 }
 
+main {
+	margin-left: 20px;
+}
 
+.main-section {
+	float: left;
 	
