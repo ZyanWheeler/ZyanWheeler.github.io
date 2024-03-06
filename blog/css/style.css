@@ -94,14 +94,11 @@ article {
 aside {
 	float: right;
 	width: 30%;
-	padding: 10px;
 }
 
 aside a {
 	border-bottom: 0.125rem solid #000000;
-	padding: 10px;
-}
-section {
+	padding-bottom: 20px;
 }
 
 .grid-container img {
@@ -139,7 +136,7 @@ h1 {
 	font-weight : bold ;
 	transform : rotateZ(-5deg);
 	text-align: center;
-	padding: 20px;
+	padding: 40px;
 } 
 .highlight {
 	background-color : #610e0e;
