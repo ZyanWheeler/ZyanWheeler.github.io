@@ -63,10 +63,11 @@ html {
 nav {
 	border-top: .125rem solid #33658A;
 	border-bottom: .125rem solid #33658A;
-	font-size: 26px;
+	font-size: 28px;
 	word-spacing: 40px;
 	text-decoration: none;
 	margin-left: 45px;
+	padding: 20px;
 }
 
 h2 {
@@ -106,8 +107,8 @@ aside {
 	font-family : sans-serif ;
 	font-size : 50px ;
 	font-weight : bold ;
-	transform : rotate (-5deg );
-	
+	transform : rotate (5deg );
+	text-align: center;
 } 
 .highlight {
 	background-color : #610e0e;
@@ -121,3 +122,7 @@ aside {
 	border-top-left-radius : 8px ;
 	box-shadow : 2px 2px 2px black ;
 	color : #f3eaea; }
+	
+.main-section {
+	float: left;
+}
