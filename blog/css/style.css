@@ -132,3 +132,9 @@ section {
 .main-section {
 	float: left;
 }
+
+.grid-container {
+	display:grid;
+	grid-template-rows:auto;
+	grid-auto-rows:minmax(150px,auto);
+	grid-template-areas:"header header"
