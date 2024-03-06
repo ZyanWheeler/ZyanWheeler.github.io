@@ -67,16 +67,19 @@ nav {
 	border-bottom: .125rem solid #33658A;
 	font-size: 26px;
 	word-spacing: 40px;
+	text-decoration: none;
+	margin-left: 45px;
 }
 
 h2 {
-	font-size: 14px;
-	
+	font-size: 20px;
+	margin-left: 45px;
 }
 
 main {
-	margin-left: 20px;
+	margin-left: 45px;
 }
 
 .main-section {
 	float: left;
+}
