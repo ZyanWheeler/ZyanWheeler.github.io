@@ -80,6 +80,11 @@ main {
 	margin-left: 45px;
 }
 
-.main-section {
+article {
 	float: left;
+}
+
+aside {
+	float: right;
+	width: 30%;
 }
