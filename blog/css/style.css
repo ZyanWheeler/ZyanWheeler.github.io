@@ -72,6 +72,7 @@ nav {
 h2 {
 	font-size: 20px;
 	margin-left: 45px;
+	text-align: bottom;
 }
 
 main {
@@ -92,6 +93,9 @@ aside {
 section {
 }
 
+.article-image {
+	float: left;
+}
 .grid-container { 
 	display : grid ;
 	grid-template-rows : auto ;
