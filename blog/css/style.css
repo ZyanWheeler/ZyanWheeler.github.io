@@ -76,7 +76,6 @@ h2 {
 
 main {
 	margin-left: 45px;
-	overflow:auto;
 }
 
 article {
@@ -91,7 +90,6 @@ aside {
 }
 
 section {
-	float: left;
 }
 
 .grid-container { 
