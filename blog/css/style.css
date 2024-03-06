@@ -56,11 +56,23 @@ html {
     font-size:16px;
 }
 
-
-
+h1 {
+	text-align: center;
+	font-size: 32px;
+	
+}
 
 nav {
 	border-top: .125rem solid #33658A;
 	border-bottom: .125rem solid #33658A;
+	font-size: 24px;
+	word-spacing: 10px;
 }
 
+h2 {
+	font-size: 14px;
+	float: left;
+}
+
+
+	
