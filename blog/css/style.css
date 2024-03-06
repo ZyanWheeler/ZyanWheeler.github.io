@@ -74,9 +74,9 @@ a{
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 24px;
 	margin-left: 45px;
-	text-align: bottom;
+	margin-top: 20px;
 }
 
 main {
@@ -96,6 +96,10 @@ aside {
 }
 
 section {
+}
+
+figure {
+	border-bottom: 0.125rem solid #000000;
 }
 
 .article-image {
@@ -122,6 +126,7 @@ h1 {
 	font-weight : bold ;
 	transform : rotateZ(-5deg);
 	text-align: center;
+	padding: 20px;
 } 
 .highlight {
 	background-color : #610e0e;
