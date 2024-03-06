@@ -68,7 +68,7 @@ nav {
 	padding: 20px;
 }
 
-nav a{
+a{
 	text-decoration: none;
 	color: #00008B;
 }
@@ -80,14 +80,14 @@ h2 {
 }
 
 main {
-	margin-left: 45px;
+	padding: 20px;
 }
 
 article {
 	float: left;
 	width: 65%;
 	border-right: 0.125rem solid #000000;
-	padding-left: 20px;
+	padding-right: 20px;
 }
 
 aside {
@@ -120,7 +120,7 @@ h1 {
 	font-family : sans-serif ;
 	font-size : 50px ;
 	font-weight : bold ;
-	transform : rotate (5deg );
+	transform : rotateZ(-5deg);
 	text-align: center;
 } 
 .highlight {
