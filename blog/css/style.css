@@ -106,11 +106,11 @@ aside {
 	font-family : sans-serif ;
 	font-size : 50px ;
 	font-weight : bold ;
-	-ms-transform : rotate (-5deg );
 	transform : rotate (-5deg );
+	
 } 
 .highlight {
-	background-color : rgb ( 97 , 14 , 14 );
+	background-color : #610e0e;
 	padding : 0.375rem ;
 	font-family : Ultra, serif ;
 	font-size : 50px ;
@@ -120,4 +120,4 @@ aside {
 	border-bottom-right-radius : 8px ;
 	border-top-left-radius : 8px ;
 	box-shadow : 2px 2px 2px black ;
-	color : rgb ( 243 , 234 , 234 ); }
+	color : #f3eaea; }
