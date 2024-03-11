@@ -81,13 +81,13 @@ header, footer {
 
 @font-face {
 	font-family:Josefinslab;
-	src: url(../font/josefinslab-regular.ttf) format('truetype');
+	src: url(/school-site/font/josefinslab-regular.ttf) format('truetype');
 	font-weight:normal;
 	font-style:normal
 }
 @font-face {
 	font-family:Montserrat;
-	src: url(../font/montserrat-regular.ttf) format('truetype');
+	src: url(/school-site/font/montserrat-regular.ttf) format('truetype');
 	font-weight:normal;
 	font-style:normal
 }
@@ -186,7 +186,7 @@ nav a{
 	font-size: 1.125rem;
 	margin-bottom: 1.5rem;
 	border-style: solid;
-	border-width: 0.063;
+	border-width: 0.063rem;
 	border-color: #33658A;
 }
 
