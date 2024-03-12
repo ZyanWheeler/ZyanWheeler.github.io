@@ -108,7 +108,7 @@ aside img {
 }
 
 figure img {
-	min-width:50%;
+	min-width:100%;
 }
 
 figcaption {
