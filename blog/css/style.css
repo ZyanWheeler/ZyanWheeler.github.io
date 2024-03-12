@@ -115,9 +115,8 @@ figcaption {
 }
 .grid-container { 
 	display : grid ;
-	grid-template-rows : auto ;
-	grid-auto-rows : minmax ( 150px , auto );
-	grid-template-areas : "header header" 
+	grid-template-columns:repeat(auto-fit, minmax(5rem, 1fr)) ;
+	grid-column-gap: 1%;
 } 
 @font-face { 
 	font-family : Ultra;
