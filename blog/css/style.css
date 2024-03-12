@@ -107,6 +107,10 @@ aside img {
 	width: 70%;
 }
 
+figure img {
+	min-width:50%;
+}
+
 figcaption {
 	background-color: #fffdd8;
 }
@@ -120,7 +124,7 @@ figcaption {
 } 
 @font-face { 
 	font-family : Ultra;
-	src : url ( '../fonts/serif/ultra-regular.ttf' );
+	src : url ( /blog/fonts/serif/ultra-regular.ttf );
 	font-size : normal ;
 	font-weight : normal ;
 } 
