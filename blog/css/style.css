@@ -108,12 +108,12 @@ aside img {
 }
 
 figure img {
-	min-width:150%;
+	min-width:125%;
 }
 
 figcaption {
 	background-color: #fffdd8;
-	min-width:150%;
+	min-width:125%;
 }
 
 button {
