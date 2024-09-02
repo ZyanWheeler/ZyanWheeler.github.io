@@ -21,3 +21,21 @@ header {
     padding-bottom:2rem;
 }
 
+h1 {
+    font-size: 6rem;
+    font-weight:100;
+    color: #333;
+    font-family: Lato, sans-serif;
+    text-shadow:2px 2px 3px #333;      
+    margin:0;
+	text-align:center;
+}
+
+h2 {
+    
+    font-size:2rem;
+    margin-top:0;
+    font-weight:100;
+    font-family:'Lato', sans-serif;
+    text-align:center;
+}
