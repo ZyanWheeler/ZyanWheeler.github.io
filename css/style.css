@@ -39,3 +39,10 @@ h2 {
     font-family:'Lato', sans-serif;
     text-align:center;
 }
+
+.examples {
+	border: 2.5px solid #0d4f26;
+}
+
+img {
+	text-align: center;
