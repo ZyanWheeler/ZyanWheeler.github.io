@@ -42,6 +42,8 @@ h2 {
 
 .examples {
 	border: 2.5px solid #0d4f26;
+	width:50%;
+	height:50%;
 }
 
 .title {
@@ -50,3 +52,4 @@ h2 {
 	margin-right: auto;
 	width: 100%
 }
+
