@@ -7,20 +7,21 @@
         <style>
 			body {font-family: Arial, sanspserif; text-align: center; }
 			form { display: inline-block; margin-top: 100px; padding: 30px; border: 1px solid #ddd; width: 500px; min-height: 540px }
-			h1 {font-size: 2rem; text-align: left; }
-			.userform {float: center; padding: 15px; }
+			h1 {font-size: 1rem; text-align: left; }
+			.userform {float: center; width: 400px; height: 20px;}
 			p {text-align: left;}
 			.logo {float: left; }
+			.button {width 400px; height: 20px;}
 		</style>
 		
 </head>
 	<body>
 	<form action="login.php" method="post">
-		<img class = "logo" src = "login/images/charmhealth.png" alt = "charmhealth logo">
+		<img class = "logo" src = "/login/images/charmhealth.png" alt = "charmhealth logo">
 		<h1>Sign in</h1>
 		<p>to access charmhealth</p>
 		<input class = "userform" type="text" name="username" required><br><br>
-		<input type="submit" value="Next">
+		<input class = "button" type="submit" value="Next">
 	</form>
 </body>
 
