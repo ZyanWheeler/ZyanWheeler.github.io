@@ -3,19 +3,21 @@
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Zyan Wheeler">
-        <title>Login</title>
+        <title>CharmHealth Accounts</title>
         <style>
 			body {font-family: Arial, sanspserif; text-align: center; }
 			form { display: inline-block; margin-top: 100px; padding: 20px; border: 1px solid #ddd; width: 500px; min-height: 540px 
-				} 
+				}
+			.userform {float: center; }
 		</style>
 		
 </head>
 	<body>
 	<form action="login.php" method="post">
+		<h1>Sign in</h1>
+		<p>to access charmhealth</p>
 		<label>Username:</label>
-		<input type="text" name="username" required><br><br>
+		<input class = "userform" type="text" name="username" required><br><br>
 		<input type="submit" value="Login">
 	</form>
 </body>
