@@ -1,0 +1,51 @@
+/*$Id$*/
+@font-face {
+    font-family: 'ZohoPuvi';
+    src: url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_regular.cdda956b52a848ecb4d75cf91fea5737.eot'); /* IE9 Compat Modes */
+    src: url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_regular.cdda956b52a848ecb4d75cf91fea5737.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_regular.2115e13d08dc114dd29d568b411169d9.woff') format('woff'), /* Modern Browsers */
+         url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_regular.9adb79386e4ececdeb93f007d5ecda75.ttf') format('truetype'); /* Safari, Android, iOS */
+         font-style: normal;
+    	 font-weight: 400;
+    	 text-rendering: optimizeLegibility;
+    	 font-display:swap;
+}
+@font-face {
+    font-family: 'ZohoPuvi';
+    src: url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_medium.d3721ce4119fbf073c2175c7079f9a3b.eot'); /* IE9 Compat Modes */
+    src: url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_medium.d3721ce4119fbf073c2175c7079f9a3b.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_medium.63ce939dabb7a62611c66c2f03cd7781.woff') format('woff'), /* Modern Browsers */
+         url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_medium.88f7f19ee68806acbfcb8e640b0b9ed5.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: medium;
+    		 font-weight: 500;
+    		 font-display:swap;
+    		 text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'ZohoPuvi';
+    src: url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_semibold.5a4543010df2bf08f459d8f8af468421.eot'); /* IE9 Compat Modes */
+    src: url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_semibold.5a4543010df2bf08f459d8f8af468421.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_semibold.ec775134290eac7cb9e8fd31bfc908c5.woff') format('woff'), /* Modern Browsers */
+         url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_semibold.e9ba3130b9031314983d78c4280d0b89.ttf') format('truetype'); /* Safari, Android, iOS */
+         font-style: semi-bold;
+    	 font-weight: 600;
+    	 font-display:swap;
+    	 text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: 'ZohoPuvi';
+    src: url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_bold.863af2667bd90df92bf84974d40621fb.eot'); /* IE9 Compat Modes */
+    src: url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_bold.863af2667bd90df92bf84974d40621fb.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_bold.d9145ee851fb8481a4efdfbdb8ddb278.woff') format('woff'), /* Modern Browsers */
+         url('https://static.zohocdn.com/iam/v2/components/images/zohopuvi/zoho_puvi_bold.9ddee54e5f59a6b9b2a03a669b1aa7d3.ttf') format('truetype'); /* Safari, Android, iOS */
+         font-style: bold;
+    	 font-weight: 700;
+    	 font-display:swap;
+    	 text-rendering: optimizeLegibility;
+}
+
+
+body {
+	font-family: 'ZohoPuvi', Georgia;
+	font-weight:400;
+}
