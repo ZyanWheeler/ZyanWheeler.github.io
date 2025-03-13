@@ -39,9 +39,6 @@
             <label for="username">Username:</label>
             <input type="text" id="username" required>
             <br><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" required>
-            <br><br>
             <button type="submit">Login</button>
         </form>
     </div>
@@ -54,9 +51,8 @@
         event.preventDefault();
         
         let username = document.getElementById("username").value;
-        let password = document.getElementById("password").value;
 
-        if (username && password) {
+        if (username) {
             let users = JSON.parse(localStorage.getItem("users")) || [];
             users.push(username);
             localStorage.setItem("users", JSON.stringify(users));
@@ -67,7 +63,7 @@
             userList.appendChild(listItem);
 
             setTimeout(() => {
-                window.location.href = "home.html";
+                window.location.href = "../";
             }, 1000);
         }
     });
