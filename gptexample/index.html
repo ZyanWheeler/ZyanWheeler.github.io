@@ -68,16 +68,32 @@
 				outline: none;
 				border: none;
 				margin: auto;
+		.textbox {
+				display: block;
+				width: 100%;
+				height: 44px;
+				box-sizing: border-box;
+				border-radius: 2px;
+				text-indent: 12px;
+				font-size: 16px;
+				outline: none;
+				border: none;
+				padding-right: 12px;
+				transition: all .2s ease-in-out;
+				background: #f8f8f8;
+				border: 1px solid #E4E4E4;
+				padding-block: 1px;
+				padding-inline: 2px;
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="signin">
         <h2>Login</h2>
-        <form class = "signin" id="loginForm">
+        <form id="loginForm">
             <label for="username">Username:</label>
-            <input type="text" id="username" required>
+            <input class = "textbox" type="text" id="username" required>
             <br><br>
-            <button class = "loginbtn" type="submit">Login</button>
+            <button class = "loginbtn" type="submit">Next</button>
         </form>
     </div>
     
