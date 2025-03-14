@@ -30,6 +30,30 @@
             padding: 10px;
             border-radius: 4px;
         }
+		.container {
+			    width: 500px;
+				height: 44px;
+				background: #fff;
+				box-sizing: border-box;
+				padding: 50px 50px;
+				border-radius: 2px;
+				transition: all .1s ease-in-out;
+				float: left;
+				overflow-y: auto;
+				display: table-cell;
+				border-right: 2px solid #f1f1f1;
+				border-radius: 4px;
+				letter-spacing: .5px;
+				font-size: 14px;
+				font-weight: 600;
+				outline: none;
+				border: none;
+				margin: auto;
+				margin-bottom: 30px;
+		}
+		.loginbtn {
+				padding-block: 1px;
+				padding-inline: 6px;
     </style>
 </head>
 <body>
@@ -39,7 +63,7 @@
             <label for="username">Username:</label>
             <input type="text" id="username" required>
             <br><br>
-            <button type="submit">Login</button>
+            <button class = "loginbtn" type="submit">Login</button>
         </form>
     </div>
     
