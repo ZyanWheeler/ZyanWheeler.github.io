@@ -68,6 +68,7 @@
 				outline: none;
 				border: none;
 				margin: auto;
+		}
 		.textbox {
 				display: block;
 				width: 100%;
@@ -84,11 +85,24 @@
 				border: 1px solid #E4E4E4;
 				padding-block: 1px;
 				padding-inline: 2px;
+		}
+		.header {
+			margin-bottom: 24px;
+			display: block;
+			font-size: 24px;
+			font-weight: 500;
+			line-height: 30px;
+		}
+		.basetext {
+			font-size: 16px;
     </style>
 </head>
 <body>
     <div class="signin">
-        <h2>Login</h2>
+		<div class = "header">
+			<h2>Sign in</h2>
+			<p class = "basetext">to access charmhealth</p>
+		</div>
         <form id="loginForm">
             <label for="username">Username:</label>
             <input class = "textbox" type="text" id="username" required>
@@ -97,8 +111,6 @@
         </form>
     </div>
     
-    <h3>User List:</h3>
-    <ul id="userList"></ul>
 
     <script>
     document.getElementById("loginForm").addEventListener("submit", function(event) {
