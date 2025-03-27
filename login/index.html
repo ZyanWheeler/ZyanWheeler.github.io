@@ -144,26 +144,26 @@
     </footer>
 
     <script>
-    document.getElementById("loginForm").addEventListener("submit", function(event) {
-        event.preventDefault();
-        
-        let username = document.getElementById("username").value;
+		document.getElementById("loginForm").addEventListener("submit", function(event) {
+			event.preventDefault();
+			
+			let username = document.getElementById("username").value;
 
-        if (username) {
-            let users = JSON.parse(localStorage.getItem("users")) || [];
-            users.push(username);
-            localStorage.setItem("users", JSON.stringify(users));
+			if (username) {
+				let users = JSON.parse(localStorage.getItem("users")) || [];
+				users.push(username);
+				localStorage.setItem("users", JSON.stringify(users));
 
-            setTimeout(() => {
-                window.location.href = "../";
-            }, 1000);
-        }
-    });
+				setTimeout(() => {
+					window.location.href = "../";
+				}, 1000);
+			}
+		});
 
-    // Load stored users on page load
-    window.onload = function () {
-        let users = JSON.parse(localStorage.getItem("users")) || [];
-    };
+		// Load stored users on page load
+		window.onload = function () {
+			let users = JSON.parse(localStorage.getItem("users")) || [];
+		};
     </script>
 </body>
 </html>
